@@ -210,8 +210,6 @@ textarea {
 .sec3{
     height: 60vh;
     background:#8479fa;
-
-
 } 
 .content-3{
 padding: 50px;
@@ -269,6 +267,11 @@ margin-top: 20PX;
     padding: 40px 30px;
     border-radius: 20px;
   }
+  .containers img{
+    width: 100px;
+     height: 80px;
+  }
+  
   .para1 {
     line-height: 30px;
     color: black;
@@ -283,6 +286,8 @@ margin-top: 20PX;
   }
   .down-part img {
     border-radius: 50%;
+    width: 60px;
+    height: 60px;
   }
   .write {
     margin-left: 15px;
