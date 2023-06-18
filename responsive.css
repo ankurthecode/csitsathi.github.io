@@ -121,7 +121,7 @@
 .containers{
 margin:auto;
 margin-top: 40px;
-width: 400px;
+width: 350px;
 height: 250px;
 background-color: rgb(246, 242, 242);
 box-shadow: 10px 15px 20px  grey;
@@ -151,14 +151,14 @@ height: 50px;
 
 /* responsiveness for help page  */
 .sec3{
-height: 50vh;
+height: 30vh;
 background:#8479fa;
 } 
 .content-3{
-padding: 50px;
+padding: 20px;
 margin: auto;
-height: 250px;
-width: 400px;
+height: 200px;
+width: 320px;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -167,26 +167,27 @@ background-color: white;
 position: relative;
 top: 40px;
 border-radius: 30px;
-line-height: 40px;
+line-height: 35px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16),
             0 2px 6px rgba(0, 0, 0, 0.23);
 }
 .content-3 h1{
   font-family: sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   text-align: center;
   }
   .btn{
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 100px;
     border-radius: 10px;
     color: white;
     background:#8479fa;
-    font-size: 20px;
-    margin-top: 20PX;
+    font-size: 12px;
+    /* margin-top: 20PX; */
+    margin-bottom: 15px;
     }
 .content-3 h2{
-  font-size: 16px;
+  font-size: 15px;
 }
 }
 
