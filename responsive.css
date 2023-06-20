@@ -176,7 +176,7 @@
   .quotepg{
     display: flex;
     flex-direction: column;
-      gap: 30px;
+      gap: 10px;
   }
   .head2{
     text-align: center;
@@ -186,7 +186,7 @@
   .containers{
   margin:auto;
   margin-top: 45px;
-  width: 400px;
+  width: 380px;
   height: 250px;
   background-color: rgb(246, 242, 242);
   box-shadow: 10px 15px 20px  grey;
