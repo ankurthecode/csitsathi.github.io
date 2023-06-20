@@ -76,7 +76,7 @@ a{
     display: grid;
     margin-inline: auto;
     padding:50px;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(autofill,2);
     grid-template-columns: repeat(6,1fr);
     row-gap: 12px;
     column-gap: 12px;
@@ -145,7 +145,7 @@ a{
 .contact-container {
     align-items: center;
     justify-content: space-between;
-    /* height: 700px; */
+    /* height: 700px;  */
 }
 .image-text img {
     height: 484px;

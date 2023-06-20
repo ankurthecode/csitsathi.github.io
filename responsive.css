@@ -11,6 +11,9 @@
         width: 100vw;
         background-position: center;
     }
+    .navbar{
+      display: none;
+    }
 }
 @media only screen and (max-width:600px){
    
@@ -25,6 +28,68 @@
 }
 
 @media only screen and (max-width:1080px) {
+  .note-section {
+    height: 1300px;
+  }
+
+  .card-container {
+    height: 1200px;
+  }
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card1 {
+    height: 500px;
+    width: 80vw;
+  }
+
+  .card {
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .text h1 {
+    font-size: 1.3rem;
+  }
+
+  .text2 h1 {
+    font-size: 1.3rem;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .image-text img {
+    height: 300px;
+  }
+
+  .image-text h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .form {
+    width: 90vw;
+  }
+
+  .contact-form img {
+    width: 70vw;
+    width: 200px;
+  }
+  .label {
+    margin-block: 10px;
+  }
+  .inline-inputs {
+    display: block;
+  }
+  .design {
+    width: 350px;
+  }
+
+  textarea {
+    width: 350px;
+  }
 
   footer {
     height: 1000px;
@@ -106,12 +171,12 @@
       justify-content: center;
       font-size: 20px;
     }
+
  /* responsiveness for quote section */
  .quotepg{
-  height: 70vh;
   display: flex;
   flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 .head2{
   text-align: center;
@@ -120,8 +185,8 @@
 }
 .containers{
 margin:auto;
-margin-top: 40px;
-width: 350px;
+margin-top: 45px;
+width: 400px;
 height: 250px;
 background-color: rgb(246, 242, 242);
 box-shadow: 10px 15px 20px  grey;
@@ -142,7 +207,6 @@ font-size: 1.2rem;
 .down-part {
 display: flex;
 font-size: 15px;
-margin-bottom: 20px;
 }
 .down-part img {
 width: 120px;
@@ -151,47 +215,46 @@ height: 50px;
 
 /* responsiveness for help page  */
 .sec3{
-height: 35vh;
+height: 50vh;
 background:#8479fa;
 } 
 .content-3{
-padding: 20px;
+padding: 50px;
 margin: auto;
-height: 200px;
-width: 320px;
+height: 250px;
+width: 400px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 background-color: white;
 position: relative;
-top: 40px;
+top: 100px;
 border-radius: 30px;
-line-height: 35px;
+line-height: 40px;
 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16),
             0 2px 6px rgba(0, 0, 0, 0.23);
-            /* margin-bottom: 20px; */
-            margin-top: 20px;
 }
 .content-3 h1{
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
   }
   .btn{
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    width: 150px;
     border-radius: 10px;
     color: white;
     background:#8479fa;
-    font-size: 12px;
-    /* margin-top: 20PX; */
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 20PX;
     }
 .content-3 h2{
-  font-size: 15px;
+  font-size: 20px;
 }
 }
+
+
 
   
   
