@@ -185,9 +185,9 @@
   }
   .containers{
   margin:auto;
-  margin-top: 45px;
-  width: 380px;
-  height: 250px;
+  margin-top: 25px;
+  width: 350px;
+  height: 220px;
   background-color: rgb(246, 242, 242);
   box-shadow: 10px 15px 20px  grey;
   padding: 0px 30px;
