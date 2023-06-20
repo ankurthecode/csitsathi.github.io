@@ -222,7 +222,7 @@
   padding: 50px;
   margin: auto;
   height: 250px;
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,14 +230,16 @@
   background-color: white;
   position: relative;
   top: 100px;
+  font-size: 15px;
   border-radius: 30px;
   line-height: 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16),
               0 2px 6px rgba(0, 0, 0, 0.23);
+              
   }
   .content-3 h1{
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     }
     .btn{
@@ -250,7 +252,7 @@
       margin-top: 20PX;
       }
   .content-3 h2{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
