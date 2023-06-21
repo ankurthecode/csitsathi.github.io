@@ -298,3 +298,10 @@ margin-top: 20PX;
   .write p {
     opacity: 0.4;
   }
+  .navbar-toggle {
+    display: none;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    cursor: pointer;
+  }

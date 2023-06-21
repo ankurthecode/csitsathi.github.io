@@ -14,6 +14,7 @@
     .navbar{
       display: none;
     }
+    
 }
 @media only screen and (max-width:600px){
    
@@ -29,7 +30,8 @@
 
 @media only screen and (max-width:1080px) {
   .note-section {
-    height: 1300px;
+    height: 1000px;
+    /* height: 100vh; */
   }
 
   .card-container {
@@ -47,7 +49,7 @@
   }
 
   .card {
-    width: 80vw;
+    width: 20vw;
     height: 50vh;
   }
 
@@ -254,6 +256,40 @@
   .content-3 h2{
     font-size: 15px;
   }
+  /* for note section at 600px */
+  .note-section {
+    height: 1050px;
+    /* height: 100vh; */
+  }
+
+  .card-container {
+    height: 1000px;
+    width: 100%;
+  }
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* .card1 {
+    height: 500px;
+    width: 80vw;
+  } */
+
+  .card {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .text h1 {
+    font-size: 1.0rem;
+  }
+
+  .text2 h1 {
+    font-size: 1.0rem;
+  }
+
 }
 
 
