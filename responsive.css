@@ -34,6 +34,7 @@
 
   .card-container {
     height: 1200px;
+    width: 100%;
   }
   .card-grid {
     display: flex;
