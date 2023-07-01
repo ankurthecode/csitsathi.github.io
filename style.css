@@ -39,6 +39,7 @@ a{
     height: 90vh;
     /* background: linear-gradient(to right , #a49c9c83,#8c0fbe3f); */
     background:linear-gradient(to right,#f0e8e86b,#b30cd82e);
+    width: 100%;
 }
 
 .note-container {
